@@ -1,0 +1,192 @@
+/* header style */
+.nav {
+    width: 100%;
+    height: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+nav {
+
+    width: 100%;
+    height: 8rem;
+    position: sticky;
+}
+
+.logo {
+
+    max-width: 20%;
+
+}
+
+.links {
+
+    width: 20%;
+}
+
+.link {
+    width: 100%;
+    height: 2rem;
+}
+
+.link>li {
+    list-style: none;
+    width: 28%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: .5s;
+}
+.links>ul>li>a:hover,
+.link>li:hover{
+    background: #697565;
+    color:#ECDFCC ;
+}
+.link>ul {
+    list-style: none;
+}
+
+.links>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+}
+
+/* add on elements */
+.flex {
+    display: flex;
+}
+
+.align {
+    justify-content: center;
+    align-items: center;
+}
+
+.font {
+    font-family: 'poppins', sans-serif;
+}
+
+.fontSize {
+    font-size: 28px;
+}
+
+
+
+.mons {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-center {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+/*section style */
+section {
+    width: 100%;
+    height: 80vh;
+}
+
+.cont {
+
+    width: 40%;
+    height: 24rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: .5s;
+}
+
+.cont:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    cursor: pointer;
+}
+
+.ryt {
+
+    height: 24rem;
+    width: 50%;
+    background: #181C14;
+    border-radius: 0 50px 50px 0;
+
+
+}
+
+.left {
+
+    height: 24rem;
+    width: 50%;
+
+}
+
+.img {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/𝓢𝓘𝓓𝓐𝓣𝓘.jpg);
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.disc {
+
+    font-size: 16px;
+    line-height: 0;
+    display: grid;
+    color: white;
+
+
+}
+.disc h1{
+    color: #ECDFCC;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3C3D37;
+}
+
+.tags {
+
+    width: 80%;
+    height: 12rem;
+}
+
+.tags>ul {
+
+    width: 86%;
+    height: 12rem;
+    list-style: none;
+    display: grid;
+}
+
+.tags>ul>li {
+
+    border-radius: none;
+    height: 1.5rem;
+
+
+}
+
+.tags>ul>li>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #697565;
+
+}
